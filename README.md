@@ -73,3 +73,8 @@ This is  theInterface of Chatbot
 git clone https://github.com/Syam-Doppasani/MIT-chatbot
 cd MIT-chatbot
 ```
+
+# 📬 Contact
+For collaborations, or queries, feel free to open an issue or connect via email!
+
+Email: syamdoppasani@gmail.com
