@@ -34,15 +34,22 @@ A smart chatbot built with [Rasa](https://rasa.com/) and [Streamlit](https://str
 
   
 
-# Backend server
+# 🖥️Backend server
+** How the Rasa Server Works:**
 
-Sever handling the user quries 
+The Rasa server acts as the brain of the chatbot. When a user sends a message, the server processes it using trained natural language models to understand the intent and extract entities. It then selects the appropriate response or action based on conversation history and rules.
+
+In this video, I’ve launched the Rasa server with REST API support, allowing it to communicate with the Streamlit frontend. All incoming messages are logged, and the server responds instantly — demonstrating a smooth end-to-end chatbot pipeline.
+
+
+
 
 https://github.com/user-attachments/assets/adaea8d2-74e7-4446-90bb-00311d9377f0
 
-# User Interface 
+# 🖥️ Streamlit Chat UI Overview
 
-This is  theInterface of Chatbot  
+This is the user interface built using Streamlit
+
 ![Screenshot 2025-06-12 180609](https://github.com/user-attachments/assets/839bd789-2e0a-4710-b42c-ac0d8a9fa379)
 
 
