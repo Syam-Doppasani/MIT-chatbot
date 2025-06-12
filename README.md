@@ -4,19 +4,26 @@ A smart chatbot built with [Rasa](https://rasa.com/) and [Streamlit](https://str
 
 ---
 
-## 📸 Demo
-
-![Demo GIF](demo.gif) <!-- Optional -->
-
----
 
 
-https://github.com/user-attachments/assets/5c158586-3de1-410b-9263-0ac7a2b7542b
+
+# Backend server
+
+Sever handling the user quries 
+
+https://github.com/user-attachments/assets/adaea8d2-74e7-4446-90bb-00311d9377f0
+
+# User Interface 
+
+This is  theInterface of Chatbot  
+![Screenshot 2025-06-12 180609](https://github.com/user-attachments/assets/839bd789-2e0a-4710-b42c-ac0d8a9fa379)
+
+
 
 
 ## 📁 Features
 
-- Normal simple chat interface
+- Simple chat interface
 - Real-time response from Rasa server
 - Custom FAQ intents
 - REST API integration with Streamlit
