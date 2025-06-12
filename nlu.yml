@@ -1,0 +1,43 @@
+version: "2.0"
+nlu:
+- intent: ask_internship_duration
+  examples: |
+    - How long is the internship?
+    - What is the duration of the internship program?
+    - Internship length?
+
+- intent: ask_application_deadline
+  examples: |
+    - When is the last date to apply?
+    - What is the application deadline?
+    - Deadline for internship applications?
+
+- intent: ask_required_skills
+  examples: |
+    - What skills are needed?
+    - What do I need to know before applying?
+    - Required technologies for this internship?
+
+- intent: ask_stipend
+  examples: |
+    - Is there a stipend?
+    - Will I be paid for the internship?
+    - What is the stipend amount?
+
+- intent: ask_company_info
+  examples: |
+    - Tell me about your company
+    - What does your organization do?
+    - Give me some information about your organization
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later

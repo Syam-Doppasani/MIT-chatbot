@@ -1,0 +1,36 @@
+version: "2.0"
+
+intents:
+  - ask_internship_duration
+  - ask_application_deadline
+  - ask_required_skills
+  - ask_stipend
+  - ask_company_info
+  - greet
+  - goodbye
+
+responses:
+  utter_ask_internship_duration:
+    - text: "The internship usually lasts 8 weeks, starting in June."
+
+  utter_ask_application_deadline:
+    - text: "The last date to apply is May 15th."
+
+  utter_ask_required_skills:
+    - text: "You should be familiar with Python, basic web development, and Git."
+
+  utter_ask_stipend:
+    - text: "Yes, selected interns receive a stipend of ₹10,000 per month."
+
+  utter_ask_company_info:
+    - text: "We are a tech-driven organization focused on AI and education."
+
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to ask if you have more questions."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

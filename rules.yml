@@ -1,0 +1,36 @@
+version: "2.0"
+rules:
+- rule: Say internship duration
+  steps:
+  - intent: ask_internship_duration
+  - action: utter_ask_internship_duration
+
+- rule: Say application deadline
+  steps:
+  - intent: ask_application_deadline
+  - action: utter_ask_application_deadline
+
+- rule: Say required skills
+  steps:
+  - intent: ask_required_skills
+  - action: utter_ask_required_skills
+
+- rule: Say stipend info
+  steps:
+  - intent: ask_stipend
+  - action: utter_ask_stipend
+
+- rule: Say company info
+  steps:
+  - intent: ask_company_info
+  - action: utter_ask_company_info
+
+- rule: Greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
